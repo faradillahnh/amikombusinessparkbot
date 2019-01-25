@@ -37,9 +37,9 @@ if (!options['persistence-path']) console.warn(`⚠️   No --persistence-path (
 // ----------------
 // constants
 
-// bot info
-const API_TOKEN = '617033790:AAEZPmoafwjIbrmKnasmmH3lpG-NBXPa1yQ'
-const BOT_USERNAME = 'amikombusinesspark_bot'
+//bot info
+const API_TOKEN = options['api-token']
+const BOT_USERNAME = options['bot-username']
 const PERSISTENCE_PATH = options['persistence-path'] || DEFAULT_PERSISTENCE_PATH
 const BOT_ID = +API_TOKEN.split(':')[0]
 
